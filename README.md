@@ -2,39 +2,37 @@
 
 This project allows you to summarize speeches, YouTube video transcripts, website content, and PDF documents using the Groq Gemma LLM integrated with LangChain. It supports multiple summary strategies like simple summary, map-reduce, and refinement chains for better results.
 
-Features
-Summarize plain text speeches with detailed prompts
+---
 
-Summarize PDF documents by loading and chunking content
+## Features
 
-Summarize YouTube video transcripts and web page text via URL input
+- Summarize plain text speeches with detailed prompts  
+- Summarize PDF documents by loading and chunking content  
+- Summarize YouTube video transcripts and web page text via URL input  
+- Supports Groq Gemma-7b-It language model via Groq API  
+- Supports translation of summaries to other languages (e.g., Hindi)  
+- Multiple summarization techniques: stuff, map-reduce, refine  
+- Streamlit app interface for summarizing URLs (YouTube or web pages)  
 
-Supports Groq Gemma-7b-It language model via Groq API
+---
 
-Supports translation of summaries to other languages (e.g., Hindi)
+## Getting Started
 
-Multiple summarization techniques: stuff, map-reduce, refine
+### Prerequisites
 
-Streamlit app interface for summarizing URLs (YouTube or web pages)
+- Python 3.8 or above  
+- Groq API Key (sign up at Groq to get your API key)  
+- PyCharm or any Python IDE (optional)  
 
-Getting Started
-Prerequisites
-Python 3.8 or above
+---
 
-Groq API Key (sign up at Groq to get your API key)
+### Installation
 
-PyCharm or any Python IDE (optional)
-
-Installation
-Clone this repository or copy the project files to your local machine.
-
-Create and activate a Python virtual environment (recommended):
-
-bash
-Copy
-Edit
-python -m venv venv
-source venv/bin/activate   # On Windows: venv\Scripts\activate
+1. Clone this repository or copy the project files to your local machine.  
+2. Create and activate a Python virtual environment (recommended):  
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # On Windows: venv\Scripts\activate
 Install dependencies from requirements.txt or manually:
 
 bash
