@@ -69,27 +69,7 @@ Place your PDF speech document (e.g., apjspeech.pdf) in the project folder.
 
 The script will load and chunk the PDF content automatically and generate summaries.
 
-3. Summarize YouTube videos or website content via Streamlit app
-Run the Streamlit app:
 
-bash
-Copy
-Edit
-streamlit run streamlit_app.py
-Enter your Groq API key and URL (YouTube or website) in the sidebar.
-
-Click Summarize the Content from YT or Website to get a 300-word summary displayed on the page.
-
-Project Structure
-bash
-Copy
-Edit
-├── apjspeech.pdf                  # Sample speech PDF file
-├── text_summarizer.py             # Main script for speech and PDF summarization
-├── streamlit_app.py               # Streamlit app to summarize URLs (YouTube & web pages)
-├── .env                          # Environment variables (API key)
-├── requirements.txt              # Required packages (optional)
-└── README.md                     # This README file
 Notes
 Make sure to keep your .env file private and never upload your API keys to public repos.
 
